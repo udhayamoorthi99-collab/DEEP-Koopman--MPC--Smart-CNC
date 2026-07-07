@@ -6,9 +6,10 @@
 ![Control](https://img.shields.io/badge/Control-Model%20Predictive%20Control-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+</p> 
+<p align="center">
+# Deep Koopman MPC for Adaptive CNC Machining 
 </p>
-## Deep Koopman MPC for Adaptive CNC Machining 
-
 This project presents an AI-driven adaptive control framework for CNC machining using Deep Koopman Learning and Model Predictive Control (MPC). A physics-inspired industrial digital twin is developed to simulate nonlinear machining dynamics including tool wear, cutting force, temperature, surface roughness, vibration, power consumption, and material hardness.
 
 The Deep Koopman model learns a latent linear representation of the nonlinear CNC process, which is then used inside an MPC framework to optimise feed rate, spindle speed, and coolant flow.
@@ -52,7 +53,7 @@ During machining:
 
 Traditional CNC controllers operate using fixed machining parameters and cannot proactively respond to these changes.
 
-This project demonstrates how Deep Koopman Learning enables nonlinear process modelling while Model Predictive Control continuously adjusts machining parameters to maintain optimal performance.
+This project demonstrates how **Deep Koopman Learning** enables **nonlinear process modelling** while Model Predictive Control continuously adjusts machining parameters to maintain optimal performance.
 
 ##  Key Features
 
@@ -66,7 +67,7 @@ This project demonstrates how Deep Koopman Learning enables nonlinear process mo
 - Closed-loop CNC Process Optimisation
 - Comparative Performance Analysis
 
-## Architecture Diagram
+## System Architecture Diagram
 
   
   Physics-Based CNC Digital Twin
@@ -146,7 +147,7 @@ This project demonstrates how Deep Koopman Learning enables nonlinear process mo
         Reduced Force • Lower Temperature • Improved Quality
 
 
-## Deep koopman Architecture 
+## Deep koopman Framework
 
               Current CNC State
 
@@ -175,21 +176,15 @@ This project demonstrates how Deep Koopman Learning enables nonlinear process mo
 ## Results 
 The proposed Deep Koopman MPC framework significantly reduced cutting force while simultaneously improving machining quality, reducing power consumption, and maintaining stable process behaviour.
 
+Compared with conventional fixed-parameter CNC machining, the controller achieved:
 
-Fixed CNC => 
-High Force
-High Temperature
-Higher Energy
-More Tool Wear
+- **44.46% reduction in cutting force**
+- **7.28% reduction in temperature**
+- **6.64% reduction in power consumption**
+- Improved machining stability
+- Enhanced surface quality
+- Reduced tool wear
 
-TO 
-
-Deep Koopman MPC =>
-Lower Force
-Lower Temperature
-Lower Power
-Improved Surface Finish
-Adaptive Machining
 
 
 ## Future Improvements
@@ -202,12 +197,22 @@ Adaptive Machining
 - Edge Deployment
 
 ##  Author
+**Udhayamoorthi Arachalakumar**
 
-**UDHAYAMOORTHI ARACHALAKUMAR**
-Masters in Intelligent Manufacturing, TU Clausthal 
+**M.Sc. Intelligent Manufacturing**  
+**Clausthal University of Technology, Germany**
 
-Interests:
+### Research Interests
+
+- Intelligent Manufacturing
+- Industrial Artificial Intelligence
 - Machine Learning
 - Data-Driven Control
 - Model Predictive Control
-- Industrial AI
+- Digital Twins
+- Advanced Process Optimisation
+
+---
+
+⭐ **If you found this project interesting, please consider giving it a star!**
+
