@@ -71,7 +71,7 @@ This project demonstrates how **Deep Koopman Learning** enables **nonlinear proc
 
 ## System Architecture Diagram
 
-  
+  ```
   Physics-Based CNC Digital Twin
                │
                ▼
@@ -94,6 +94,7 @@ This project demonstrates how **Deep Koopman Learning** enables **nonlinear proc
                │
                ▼
  Adaptive CNC Process Optimisation
+```
 
  ## Technology Stack
 
@@ -118,6 +119,7 @@ This project demonstrates how **Deep Koopman Learning** enables **nonlinear proc
 | docs      | Methodology and technical documentation |
 
 ## Overall Architecuture 
+```
 
              Deep Koopman MPC for Adaptive CNC Machining
 
@@ -147,6 +149,7 @@ This project demonstrates how **Deep Koopman Learning** enables **nonlinear proc
                                │
                                ▼
         Reduced Force • Lower Temperature • Improved Quality
+```
 
 
 ## Deep koopman Framework
