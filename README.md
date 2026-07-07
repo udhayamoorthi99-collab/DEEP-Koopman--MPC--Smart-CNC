@@ -7,9 +7,11 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 </p> 
-<p align="center">
-# Deep Koopman MPC for Adaptive CNC Machining 
-</p>
+
+<h1 align="center">
+  Deep Koopman MPC for Adaptive CNC Machining
+</h1>
+
 This project presents an AI-driven adaptive control framework for CNC machining using Deep Koopman Learning and Model Predictive Control (MPC). A physics-inspired industrial digital twin is developed to simulate nonlinear machining dynamics including tool wear, cutting force, temperature, surface roughness, vibration, power consumption, and material hardness.
 
 The Deep Koopman model learns a latent linear representation of the nonlinear CNC process, which is then used inside an MPC framework to optimise feed rate, spindle speed, and coolant flow.
