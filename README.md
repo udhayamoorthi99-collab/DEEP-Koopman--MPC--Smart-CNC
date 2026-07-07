@@ -122,7 +122,6 @@ This project demonstrates how **Deep Koopman Learning** enables **nonlinear proc
 ```
 
              Deep Koopman MPC for Adaptive CNC Machining
-
  ┌─────────────────────────────────────────────────────────────────────┐
  │                 Physics-Based CNC Digital Twin                      │
  │                                                                     │
