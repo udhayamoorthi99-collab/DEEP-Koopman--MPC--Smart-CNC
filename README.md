@@ -188,6 +188,9 @@ Compared with conventional fixed-parameter CNC machining, the controller achieve
 - Improved machining stability
 - Enhanced surface quality
 - Reduced tool wear
+<img width="636" height="513" alt="image" src="https://github.com/user-attachments/assets/4cfa1920-37c8-4862-835d-d379840efb69" />
+<img width="612" height="508" alt="image" src="https://github.com/user-attachments/assets/20007ce1-bce1-40c2-a014-316b00937b22" />
+
 
 
 
